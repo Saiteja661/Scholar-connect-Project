@@ -1,0 +1,32 @@
+/*
+
+Sunil, Mrinal- 1002172246​
+Suram, Snigdha Reddy - 1002184562​
+Tadkal, Dhruv Rajesh – 1002135738​
+Telukuntla, Pranay  - 1002155049​
+Thaduka, Sai Teja  - 1002128095  
+
+*/
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes borderPulse {
+  0% {
+    border-color: #a7c7e7; /* Starting color */
+  }
+  50% {
+    border-color: #f7cac9; /* Midway color */
+  }
+  100% {
+    border-color: #c3e5ae; /* Ending color */
+  }
+}
+
+.animated-border {
+  border-width: 4px;
+  border-style: solid;
+  animation: borderPulse 3s infinite;
+}
